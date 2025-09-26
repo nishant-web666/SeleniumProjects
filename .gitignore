@@ -1,38 +1,29 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# IntelliJ IDEA project files
+.idea/
 *.iml
-*.ipr
+out/
 
-### Eclipse ###
-.apt_generated
+# Maven build output
+target/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Eclipse / NetBeans (agar kabhi open karo)
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
+nbproject/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# VS Code (agar kabhi use karo)
 .vscode/
 
-### Mac OS ###
-.DS_Store
+# Backup / temp files
+*.swp
+*.bak
+*.tmp
+*.orig
